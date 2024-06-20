@@ -2,5 +2,5 @@
 numero1= int(input("Digite um numero: "))
 numero2= int(input("Digite um numero: "))
 numero3= int(input("Digite um numero: "))
-media= (int(numero1 + numero2 + numero3 ) / 3)
+media= ((numero1 + numero2 + numero3 ) / 3)
 print (media)
