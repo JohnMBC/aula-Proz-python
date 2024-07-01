@@ -14,6 +14,10 @@ dicionario_traducao = {
 print (dicionario_traducao)
 
 original = input("Digite a palavra em inglês: ")
+traducao = input("Digite a palavra em ptbr: ")
+
+dicionario_traducao[original] = traducao
+print(dicionario_traducao)
 
 busca = input("Digite a palavra que deseja traduzir: ")
 
@@ -24,7 +28,5 @@ else:
     print("Palavra não encontrada")
     
 
-
-traducao_user = dicionario_traducao[busca]
 
 print(traducao_user)
